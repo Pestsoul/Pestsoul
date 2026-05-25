@@ -1,0 +1,186 @@
+<svg width="1600" height="500" viewBox="0 0 1600 500" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Pestsoul - Frozen Cyber Death Knight Banner</title>
+  <desc id="desc">An icy fantasy cyber banner inspired by a frozen death knight scene, with a dark armored figure, frost blade, distant citadel, dragon silhouette, and Pestsoul title.</desc>
+
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1600" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#031826"/>
+      <stop offset="0.35" stop-color="#0A5264"/>
+      <stop offset="0.62" stop-color="#63D6DB"/>
+      <stop offset="1" stop-color="#05131E"/>
+    </linearGradient>
+
+    <radialGradient id="moonGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(810 92) scale(430 245)">
+      <stop stop-color="#E1FFFF" stop-opacity="0.86"/>
+      <stop offset="0.32" stop-color="#6FE8EA" stop-opacity="0.44"/>
+      <stop offset="0.72" stop-color="#0A5264" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#031826" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="ice" x1="0" y1="305" x2="1600" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#BDFBFF" stop-opacity="0.72"/>
+      <stop offset="0.38" stop-color="#58C9D8" stop-opacity="0.54"/>
+      <stop offset="1" stop-color="#082033" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <linearGradient id="blade" x1="259" y1="228" x2="314" y2="454" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F1FFFF"/>
+      <stop offset="0.35" stop-color="#70F7FF"/>
+      <stop offset="1" stop-color="#00A9D8"/>
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="476" y1="179" x2="1135" y2="291" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3FFFF"/>
+      <stop offset="0.46" stop-color="#81F7FF"/>
+      <stop offset="1" stop-color="#00FFB3"/>
+    </linearGradient>
+
+    <filter id="frostGlow" x="-35%" y="-35%" width="170%" height="170%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.06  0 0 0 0 0.9  0 0 0 0 1  0 0 0 0.78 0" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="deepShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#02080E" flood-opacity="0.72"/>
+    </filter>
+
+    <pattern id="snow" width="140" height="80" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="16" r="1.6" fill="#D7FFFF" fill-opacity="0.55"/>
+      <circle cx="73" cy="31" r="1.2" fill="#D7FFFF" fill-opacity="0.35"/>
+      <circle cx="118" cy="10" r="1" fill="#D7FFFF" fill-opacity="0.45"/>
+      <circle cx="42" cy="68" r="1.3" fill="#D7FFFF" fill-opacity="0.32"/>
+      <path d="M104 58L112 62" stroke="#D7FFFF" stroke-opacity="0.3" stroke-width="1"/>
+    </pattern>
+
+    <pattern id="circuit" width="96" height="96" patternUnits="userSpaceOnUse">
+      <path d="M12 24H42V12H78M42 24V54H72M18 78H48V60M72 54V84" stroke="#7DFFFF" stroke-opacity="0.14" stroke-width="2" fill="none"/>
+      <circle cx="12" cy="24" r="3" fill="#00FFB3" fill-opacity="0.2"/>
+      <circle cx="78" cy="12" r="3" fill="#7DFFFF" fill-opacity="0.2"/>
+      <circle cx="72" cy="84" r="3" fill="#00FFB3" fill-opacity="0.16"/>
+    </pattern>
+
+    <linearGradient id="holoPanel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#CFFFFF" stop-opacity="0.34"/>
+      <stop offset="0.5" stop-color="#00FFB3" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#6A0DAD" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <clipPath id="bannerClip">
+      <rect width="1600" height="500" rx="0"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#bannerClip)">
+    <rect width="1600" height="500" fill="url(#sky)"/>
+    <rect width="1600" height="500" fill="url(#moonGlow)"/>
+    <rect width="1600" height="500" fill="#03111D" opacity="0.2"/>
+    <rect width="1600" height="500" fill="url(#circuit)" opacity="0.62"/>
+
+    <g opacity="0.32">
+      <path d="M0 266C86 226 156 216 238 245C345 282 451 250 540 218C685 166 792 167 914 223C1068 294 1186 253 1322 211C1423 180 1510 196 1600 231V500H0V266Z" fill="#062234"/>
+      <path d="M0 320C145 256 255 268 376 319C486 365 594 348 706 284C812 224 933 226 1040 297C1161 377 1299 327 1432 279C1499 255 1558 260 1600 277V500H0V320Z" fill="#061A29"/>
+    </g>
+
+    <g opacity="0.58">
+      <path d="M770 101L801 41L832 101L848 251H754L770 101Z" fill="#061827"/>
+      <path d="M706 205L797 82L895 205L918 381H681L706 205Z" fill="#082032"/>
+      <path d="M738 196L801 123L865 196L881 360H722L738 196Z" fill="#071622"/>
+      <path d="M781 194H821V363H781V194Z" fill="#050D16"/>
+      <path d="M681 381C748 341 851 342 918 381H681Z" fill="#04101A"/>
+      <path d="M706 205L797 82L895 205" stroke="#8EEFFF" stroke-opacity="0.28" stroke-width="3"/>
+    </g>
+
+    <g opacity="0.72">
+      <path d="M1009 160C1094 101 1194 90 1280 127C1212 127 1148 152 1092 197C1171 178 1267 196 1334 248C1241 223 1164 234 1086 285C1054 252 1028 211 1009 160Z" fill="#061420"/>
+      <path d="M1092 198C1152 145 1224 119 1303 118" stroke="#5FEFFF" stroke-opacity="0.22" stroke-width="4"/>
+      <path d="M1140 206C1214 186 1281 203 1344 251" stroke="#5FEFFF" stroke-opacity="0.16" stroke-width="4"/>
+      <path d="M1292 249C1371 237 1462 282 1519 355C1435 321 1372 318 1304 350C1318 318 1315 287 1292 249Z" fill="#061420"/>
+      <path d="M1321 279C1391 279 1458 309 1517 358" stroke="#5FEFFF" stroke-opacity="0.16" stroke-width="4"/>
+    </g>
+
+    <g opacity="0.7" filter="url(#frostGlow)">
+      <path d="M1000 323L1120 260L1240 323L1120 386L1000 323Z" fill="#061420" fill-opacity="0.18" stroke="#7DFFFF" stroke-opacity="0.32" stroke-width="2"/>
+      <path d="M1120 260V386M1060 292V354M1180 292V354M1000 323H1240" stroke="#7DFFFF" stroke-opacity="0.18" stroke-width="2"/>
+      <path d="M1034 323L1120 278L1206 323L1120 368L1034 323Z" fill="none" stroke="#00FFB3" stroke-opacity="0.28" stroke-width="2"/>
+      <path d="M1059 322L1120 290L1181 322L1120 354L1059 322Z" fill="none" stroke="#CFFFFF" stroke-opacity="0.2" stroke-width="1.5"/>
+    </g>
+
+    <g opacity="0.78">
+      <path d="M402 111H589L624 146V222H402V111Z" fill="#03111D" fill-opacity="0.42" stroke="#7DFFFF" stroke-opacity="0.36" stroke-width="2"/>
+      <path d="M589 111V146H624" stroke="#7DFFFF" stroke-opacity="0.3" stroke-width="2"/>
+      <path d="M424 137H552M424 161H594M424 185H520M542 185H586" stroke="#00FFB3" stroke-opacity="0.48" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="584" cy="188" r="8" fill="#00FFB3" fill-opacity="0.38" filter="url(#frostGlow)"/>
+      <path d="M1154 78H1396L1432 114V189H1154V78Z" fill="#03111D" fill-opacity="0.38" stroke="#00FFB3" stroke-opacity="0.26" stroke-width="2"/>
+      <path d="M1180 111H1356M1180 139H1294M1314 139H1397M1180 166H1247" stroke="#7DFFFF" stroke-opacity="0.42" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <g opacity="0.35">
+      <path d="M1270 404C1298 371 1335 356 1377 365L1409 394L1378 424L1296 426L1270 404Z" fill="#060B10"/>
+      <path d="M1346 352L1378 365L1368 385L1328 374L1346 352Z" fill="#061420"/>
+      <path d="M1377 365L1454 337L1426 388L1409 394L1377 365Z" fill="#071825"/>
+      <circle cx="1328" cy="393" r="6" fill="#FFB13B" opacity="0.75"/>
+    </g>
+
+    <g filter="url(#deepShadow)">
+      <path d="M0 414C97 365 189 345 299 366C431 391 510 366 623 340C773 307 926 309 1071 354C1254 411 1404 381 1600 335V500H0V414Z" fill="url(#ice)"/>
+      <path d="M0 438C148 391 262 393 394 421C528 451 649 423 791 391C938 358 1095 379 1223 421C1353 464 1458 447 1600 415V500H0V438Z" fill="#03111D" opacity="0.72"/>
+      <path d="M57 409C192 359 308 360 441 404M620 373C730 341 859 339 988 373M1192 413C1325 451 1452 441 1600 407" stroke="#C8FFFF" stroke-opacity="0.25" stroke-width="3"/>
+    </g>
+
+    <g transform="translate(244 255)" filter="url(#deepShadow)">
+      <path d="M-64 126C-35 55 -10 8 42 -19C100 -49 161 -21 192 31C147 16 103 19 66 45C121 47 167 75 196 128C133 97 65 98 -10 145L-64 126Z" fill="#020811" opacity="0.86"/>
+      <path d="M-21 -77C-2 -121 39 -147 82 -132C116 -120 140 -88 143 -51C96 -68 40 -72 -21 -77Z" fill="#0B1C27"/>
+      <path d="M16 -110L38 -178L51 -113L73 -192L88 -110L111 -172L116 -88C82 -111 49 -116 16 -110Z" fill="#0D2732" stroke="#BDFBFF" stroke-opacity="0.38" stroke-width="3"/>
+      <path d="M0 -67C31 -99 93 -98 127 -64L118 5C92 36 41 39 12 6L0 -67Z" fill="#0A1720" stroke="#7CEEFF" stroke-opacity="0.22" stroke-width="4"/>
+      <path d="M21 -25C38 -37 88 -37 105 -24L95 19C80 35 47 35 31 18L21 -25Z" fill="#07111A"/>
+      <path d="M37 -20H55M73 -20H91" stroke="#6CFFFF" stroke-width="5" stroke-linecap="round" filter="url(#frostGlow)"/>
+      <path d="M-24 0C-2 23 9 77 0 139L58 153L121 134C113 72 129 21 151 -4C99 16 36 17 -24 0Z" fill="#0A151F" stroke="#7CEEFF" stroke-opacity="0.18" stroke-width="4"/>
+      <path d="M-86 14C-55 -30 -28 -54 14 -63L26 -13C-11 -6 -38 17 -60 51L-86 14Z" fill="#102333"/>
+      <path d="M139 -53C188 -40 220 -6 232 47L196 67C183 30 159 6 124 -12L139 -53Z" fill="#102333"/>
+      <path d="M12 63C42 51 83 51 113 63V124C88 139 37 138 12 124V63Z" fill="#07101A" stroke="#BDFBFF" stroke-opacity="0.16" stroke-width="3"/>
+      <path d="M45 84C53 75 73 75 82 84C91 96 77 112 64 112C51 112 37 96 45 84Z" fill="#C8FFFF" opacity="0.22"/>
+      <path d="M-12 143L28 151L17 222L-22 227L-12 143Z" fill="#091520"/>
+      <path d="M104 150L145 141L164 221L125 228L104 150Z" fill="#091520"/>
+      <path d="M-48 6C-31 -5 -16 -8 1 -8M163 -11C178 -3 190 12 199 31" stroke="#D6FFFF" stroke-opacity="0.28" stroke-width="3"/>
+    </g>
+
+    <g transform="translate(273 257)" filter="url(#frostGlow)">
+      <path d="M-38 21L-19 8L8 166L-20 229L-41 167L-38 21Z" fill="url(#blade)" stroke="#DFFFFF" stroke-opacity="0.72" stroke-width="3"/>
+      <path d="M-19 8L5 -16L34 -5L8 166" stroke="#CFFFFF" stroke-opacity="0.7" stroke-width="4"/>
+      <path d="M-30 55L-12 49" stroke="#EFFFFF" stroke-opacity="0.5" stroke-width="2"/>
+    </g>
+
+    <g opacity="0.92" filter="url(#frostGlow)">
+      <path d="M133 307L195 279L260 307L260 371L195 401L133 371V307Z" fill="#03111D" fill-opacity="0.26" stroke="#00FFB3" stroke-opacity="0.42" stroke-width="2"/>
+      <path d="M195 279V401M133 307L195 339L260 307M133 371L195 339L260 371" stroke="#7DFFFF" stroke-opacity="0.28" stroke-width="2"/>
+      <path d="M1419 209L1477 176L1535 209L1535 274L1477 307L1419 274V209Z" fill="#03111D" fill-opacity="0.3" stroke="#7DFFFF" stroke-opacity="0.36" stroke-width="2"/>
+      <path d="M1477 176V307M1419 209L1477 241L1535 209M1419 274L1477 241L1535 274" stroke="#00FFB3" stroke-opacity="0.22" stroke-width="2"/>
+    </g>
+
+    <g opacity="0.72">
+      <rect width="1600" height="500" fill="url(#snow)"/>
+      <path d="M0 0H1600V500H0V0Z" fill="none" stroke="#BDFBFF" stroke-opacity="0.16" stroke-width="6"/>
+      <path d="M38 41H291M38 41V135M1562 41H1309M1562 41V135M38 459H291M38 459V365M1562 459H1309M1562 459V365" stroke="#C8FFFF" stroke-opacity="0.27" stroke-width="2"/>
+    </g>
+
+    <g font-family="'Segoe UI', Arial, sans-serif" text-anchor="middle">
+      <text x="884" y="232" fill="#00131D" font-size="112" font-weight="900" letter-spacing="9" opacity="0.75">PESTSOUL</text>
+      <text x="877" y="225" fill="#063447" font-size="112" font-weight="900" letter-spacing="9" opacity="0.85">PESTSOUL</text>
+      <text x="870" y="219" fill="#03111D" font-size="112" font-weight="900" letter-spacing="9" stroke="#03111D" stroke-width="18" opacity="0.75">PESTSOUL</text>
+      <text x="870" y="219" fill="url(#titleGrad)" font-size="112" font-weight="900" letter-spacing="9" stroke="#EFFFFF" stroke-opacity="0.28" stroke-width="2" filter="url(#frostGlow)">PESTSOUL</text>
+      <text x="870" y="270" fill="#D8FFFF" font-size="27" font-weight="800" letter-spacing="7" opacity="0.96">CYBER DEATH KNIGHT</text>
+      <text x="870" y="309" fill="#86FFFF" font-size="18" font-weight="700" letter-spacing="5" opacity="0.88">OFFENSIVE SECURITY // FROZEN CODE // UNHOLY RESEARCH</text>
+    </g>
+
+    <g font-family="'Consolas', 'Courier New', monospace" font-size="15" fill="#BDFBFF" opacity="0.44">
+      <text x="488" y="356">root@frozen-throne:~$ ./frostmourne.exe --summon</text>
+      <text x="488" y="382">[+] runes armed   [+] shell cold   [+] target haunted</text>
+    </g>
+
+    <rect width="1600" height="500" fill="#020811" opacity="0.16"/>
+  </g>
+</svg>
