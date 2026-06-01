@@ -139,13 +139,13 @@ glacé, cyber, avec une touche Death Knight assumée.
 ---
 
 ## ROADMAP // PATH OF DAMNATION
-
+<!--
 | Phase | Rune path | Objectives |
 |:--|:--|:--|
 | 🎯 **0-6 months** | First conquests | OSCP<br />eLearnSecurity eCXD<br />5 Malware Analysis writeups<br />Top 100 TryHackMe<br />2 open-source security tools<br />Bug Bounty Hall of Fame |
 | ⚡ **6-12 months** | Mid-term campaigns | GREM<br />Cloud Security on AWS / Azure / GCP<br />10+ CTF competitions<br />Security content & tutorials<br />5+ open-source contributions<br />Responsible CVE disclosure |
 | 🌑 **1-2 years** | Ultimate quest | OSEE or OSED<br />Security research publications<br />Trusted security researcher reputation<br />Cybersecurity training course<br />Professional Red Team operations<br />APT simulation<br />Talks at DEF CON / Black Hat |
-
+-->
 ```text
                     [ FROZEN THRONE ]
                             |
